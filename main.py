@@ -13,7 +13,6 @@ from fastapi import FastAPI, HTTPException, Depends, Security
 from pydantic import BaseModel
 from fastapi.security.api_key import APIKeyHeader
 from typing import List
-from sentence_transformers import SentenceTransformer
 # The chroma library is not needed for this version
 from openai import OpenAI
 import os
